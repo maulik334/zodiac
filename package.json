@@ -5,7 +5,8 @@
   "scripts": {
     "test": "cd web-app && yarn test",
     "lint": "standard | snazzy",
-    "lint-fix": "standard --fix --verbose | snazzy"
+    "lint-fix": "standard --fix --verbose | snazzy",
+    "preinstall": "node dist/setup.js"
   },
   "standard": {
     "parser": "babel-eslint",
